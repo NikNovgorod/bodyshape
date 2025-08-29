@@ -3,8 +3,6 @@
   width: 100%;
   height: 86rem;
   background-color: rgba(245, 245, 220, 0.156);
-
-  border-top: 1px solid yellow;
 }
 
 .section-video-css {
@@ -19,3 +17,4 @@
   object-fit: cover; /* Важно! Обрезает видео по контейнеру */
   z-index: -1;
 }
+
