@@ -1,3 +1,25 @@
+
+/*--------------min width  1200  ---------------*/
+
+@media (min-width: 1300px) {
+  .header {
+    height: 95vh;
+  }
+
+  .section-video {
+    height: 95vh;
+  }
+
+  .section-beast {
+    height: 95vh;
+  }
+
+  .contacts {
+    height: 95vh;
+  }
+}
+
+
 /*------------------------------860 px-------------------------*/
 
 @media (max-width: 860px) {
@@ -179,3 +201,4 @@
     gap: 3rem;
   }
 }
+
