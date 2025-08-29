@@ -1,0 +1,80 @@
+.contacts {
+  display: flex;
+  align-items: flex-start;
+
+  height: 75rem;
+
+  padding-top: 3rem;
+
+  background-image: image-set(
+    url("./../../img/contacts/contact-form-bg.jpg") 1x,
+    url("./../../img/contacts/contact-form-bg@2x.jpg") 2x
+  );
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  border-top: 1px solid yellow;
+}
+
+.contacts-title {
+  font-family: var(--font-accent);
+  font-weight: 700;
+  font-size: 7rem;
+  letter-spacing: 0.06em;
+  color: var(--accent);
+
+  margin-bottom: 4rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  margin-bottom: 6rem;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.label {
+  font-family: var(--font-accent);
+  font-weight: 700;
+  font-size: 3rem;
+  color: #fff;
+  margin-right: 1rem;
+}
+
+.input {
+  padding: 0.5rem 0 1rem;
+
+  border: 2px solid rgba(255, 255, 255, 0.3);
+
+  font-family: var(--font-accent);
+  font-weight: 400;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.textarea {
+  resize: vertical;
+
+  display: block;
+  width: 70%;
+
+  border: 2px solid rgba(255, 255, 255, 0.3);
+
+  font-family: var(--font-accent);
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 150%;
+  color: #fff;
+}
+
+.textarea:focus {
+  outline: none;
+}

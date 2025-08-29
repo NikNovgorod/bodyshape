@@ -1,0 +1,181 @@
+/*------------------------------860 px-------------------------*/
+
+@media (max-width: 860px) {
+  html {
+    font-size: 42.5%;
+  }
+
+  /*------header--------*/
+
+  .header-logo {
+    display: none;
+  }
+
+  .header-nav {
+    flex-direction: column;
+  }
+
+  .header-row {
+    justify-content: center;
+  }
+
+  .header-img__right {
+    justify-content: center;
+  }
+
+  /*------section--------*/
+
+  .section {
+    padding: 12rem 0;
+  }
+
+  .section-title {
+    font-size: 8.6rem;
+  }
+
+  .section-text {
+    line-height: 150%;
+  }
+
+  .card-trainer-name {
+    font-size: 4rem;
+  }
+
+  /*----------programs------*/
+
+  .card-programs-name {
+    font-size: 1.5rem;
+  }
+}
+
+/*------------------------------760 px-------------------------*/
+
+@media (max-width: 760px) {
+  html {
+    font-size: 47.5%;
+  }
+
+  /*------section--------*/
+
+  .section {
+    padding: 10rem 0;
+  }
+
+  .section-title {
+    font-size: 7.6rem;
+  }
+
+  .card-trainer-name {
+    font-size: 3.8rem;
+  }
+}
+
+/*------------------------------700 px-------------------------*/
+
+@media (max-width: 700px) {
+  html {
+    font-size: 42.5%;
+  }
+
+  /*------header--------*/
+
+  .header-nav {
+    gap: 1rem 2rem;
+  }
+
+  /*------section--------*/
+
+  .section {
+    padding: 8rem 0;
+  }
+
+  .section-title {
+    font-size: 6.6rem;
+  }
+
+  .card-trainer-name {
+    font-size: 3.4rem;
+  }
+
+  /*-----programs----*/
+
+  .section-programs-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    justify-items: center;
+  }
+
+  .card-programs-name {
+    font-size: 1.5rem;
+  }
+}
+
+/*------------------------------650 px-------------------------*/
+
+@media (max-width: 650px) {
+  html {
+    font-size: 37.5%;
+  }
+
+  /*------section--------*/
+
+  .section-trainers-grid {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+
+  .section {
+    padding: 6rem 0;
+  }
+
+  .section-title {
+    font-size: 5.6rem;
+  }
+
+  .card-trainer-name {
+    font-size: 4rem;
+  }
+
+  /*-----programs----*/
+
+  .section-programs-grid {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+}
+
+/*------------------------------600 px-------------------------*/
+
+@media (max-width: 600px) {
+  html {
+    font-size: 32.5%;
+  }
+
+  /*------section--------*/
+
+  .section {
+    padding: 4rem 0;
+  }
+
+  .section-title {
+    font-size: 4.6rem;
+  }
+
+  .card-trainer-name {
+    font-size: 6rem;
+  }
+
+  /*-----programs----*/
+
+  .card-programs-name {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  /* ------footer-----*/
+  .footer-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+}

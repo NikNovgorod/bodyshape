@@ -1,0 +1,33 @@
+.footer {
+  border-top: 1px solid yellow;
+
+  padding-top: 7rem;
+
+  margin-bottom: 7rem;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 5rem;
+
+  margin-bottom: 3rem;
+}
+
+.text {
+  font-family: var(--font-accent);
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 200%;
+  color: #fafaf5;
+}
+
+.footer-contacts {
+  display: flex;
+  gap: 5rem;
+}
